@@ -26,9 +26,19 @@ implications, please send a description of the issue via email to
 ``security@djangoproject.com``. Mail sent to that address reaches the `security
 team <https://www.djangoproject.com/foundation/teams/#security-team>`_.
 
+.. note::
+
+    When reporting a potential security vulnerability, it is important that
+    your code follows security best practices. Users have a responsibility to
+    ensure their code adheres to these standards, as Django cannot mitigate
+    vulnerabilities introduced by user errors (a common example being the failure
+    to sanitize user input), other examples can be found here :ref:`security
+    topics <cross-site-scripting>`.
+
 Once you've submitted an issue via email, you should receive an acknowledgment
 from a member of the security team within 48 hours, and depending on the
 action to be taken, you may receive further followup emails.
+
 
 .. admonition:: Sending encrypted reports
 
